@@ -11,9 +11,18 @@ Add it in your root build.gradle at the end of repositories:
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}Copy
+	}
 Step 2. Add the dependency
 
 	dependencies {
 	        compile 'com.github.bfiring:MyUtils:v1.0.0'
 	}
+	
+Usage:
+ 1.In your Application File:
+         MyUtilsConfiguration configuration=new MyUtilsConfiguration.Builder(this)
+                .crashLogPath("***")
+                .ideLogEnabled(BuildConfig.DEBUG)
+                .fileLogEnabled(true)
+                .build();
+        MyUtils.init(configuration);

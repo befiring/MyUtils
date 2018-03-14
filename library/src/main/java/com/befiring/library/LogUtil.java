@@ -41,7 +41,7 @@ public class LogUtil {
 
     public static void f(String filePath, String msg){
         if(MyUtils.FILE_LOG_ENABLED){
-            IoUtil.writeToFileA(filePath,msg);
+            FileUtil.writeToFileA(filePath,msg);
         }
     }
 }

@@ -21,7 +21,7 @@ import java.nio.file.Files;
 /**
  * 文件操作工具类
  */
-public class IoUtil {
+public class FileUtil {
 
     /**
      * 写入文件方法一

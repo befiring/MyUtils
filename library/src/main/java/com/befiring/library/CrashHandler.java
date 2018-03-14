@@ -39,7 +39,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
                     .append("line:").append(aStackTrace.getLineNumber())
                     .append("\n\n");
         }
-        IoUtil.writeToFileA(MyUtils.CRASH_LOG_PATH, crashMsg.toString());
+        FileUtil.writeToFileA(MyUtils.CRASH_LOG_PATH, crashMsg.toString());
 
         ex.printStackTrace();
         android.os.Process.killProcess(android.os.Process.myPid());

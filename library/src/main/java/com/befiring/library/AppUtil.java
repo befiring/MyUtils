@@ -108,9 +108,9 @@ public class AppUtil {
     /**
      * 获得屏幕宽度
      */
-    public static int getScreenWidth(Context context)
+    public static int getScreenWidth()
     {
-        WindowManager wm = (WindowManager) context
+        WindowManager wm = (WindowManager) MyUtils.CONTEXT
                 .getSystemService(Context.WINDOW_SERVICE);
         DisplayMetrics outMetrics = new DisplayMetrics();
         wm.getDefaultDisplay().getMetrics(outMetrics);
@@ -119,13 +119,11 @@ public class AppUtil {
 
     /**
      * 获得屏幕高度
-     *
-     * @param context
      * @return
      */
-    public static int getScreenHeight(Context context)
+    public static int getScreenHeight( )
     {
-        WindowManager wm = (WindowManager) context
+        WindowManager wm = (WindowManager) MyUtils.CONTEXT
                 .getSystemService(Context.WINDOW_SERVICE);
         DisplayMetrics outMetrics = new DisplayMetrics();
         wm.getDefaultDisplay().getMetrics(outMetrics);

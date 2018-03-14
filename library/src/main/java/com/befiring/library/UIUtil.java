@@ -1,5 +1,6 @@
 package com.befiring.library;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.widget.Toast;
 
@@ -13,6 +14,7 @@ import java.util.List;
 
 public class UIUtil {
     private static Toast mToast;
+    @SuppressLint("StaticFieldLeak")
     private static MaterialDialog progressDialog;
 
     public static void showShortToast(Context context, String msg) {

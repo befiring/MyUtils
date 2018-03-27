@@ -15,6 +15,8 @@ public class MyUtils {
 
     static String CRASH_LOG_PATH;
 
+    static String FILE_LOG_PATH;
+
     static boolean IDE_LOG_ENABLED;
 
     static boolean FILE_LOG_ENABLED;

@@ -44,4 +44,10 @@ public class LogUtil {
             FileUtil.writeToFileA(filePath,msg);
         }
     }
+
+    public static void f( String msg){
+        if(MyUtils.FILE_LOG_ENABLED){
+            FileUtil.writeToFileA(MyUtils.FILE_LOG_PATH,msg);
+        }
+    }
 }

@@ -34,9 +34,3 @@ Step 2. Add the dependency
         MyUtils.init(configuration);
     }
 #################################################
-测试gerrit
-测试1111111111111
-测试2222222222
-aaaaaaaaaaaaaaaaa
-测试55555555555555
-测试6666666666666

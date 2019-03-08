@@ -34,4 +34,4 @@ Step 2. Add the dependency
         MyUtils.init(configuration);
     }
 #################################################
-测试HTTP
+测试SSH

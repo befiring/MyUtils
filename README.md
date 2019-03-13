@@ -1,4 +1,4 @@
-# MyUtils
+﻿# MyUtils
 封装了Android开发常用工具类
 
 To get this project into your build:
@@ -37,3 +37,4 @@ Step 2. Add the dependency
 11111111111111
 22222222222222
 3333333333333333
+44444444444444444

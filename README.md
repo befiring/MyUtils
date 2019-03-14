@@ -34,6 +34,4 @@ Step 2. Add the dependency
         MyUtils.init(configuration);
     }
 #################################################
-00000
-11111111111111111
-2222222222223
+qwer
